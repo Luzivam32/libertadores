@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+table {
+    text-align: center;
+}
+tr, th, td {
+    border: 1px solid white;
+}
+.trgrey {
+    background-color: grey;
+    color: white;
+
+}
+
+.trgain {
+    background-color: gainsboro;
+}
+
+.tdleft {
+    text-align: left;
+}
+
+.boxylw {
+    background-color: yellow;
+}
