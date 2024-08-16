@@ -5,11 +5,14 @@
 }
 body{
     background-image: url(../imgs/imagem1.jpg);
-    color: Black;
+    color: white;
+    font-size: 24px;
 }
 header{
-    background-color: green;
+    background-color:rgba(50, 250, 0, 0.222);
     display: flex;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 header img{
     padding: 2px;
@@ -17,18 +20,43 @@ header img{
     height: 100px;
 }
 section{
-    background-color: azure;
+    background-color:rgba(250, 250, 250, 0.222);
     margin: 0px auto;
-    width: 45%;
+    width: 95%;
     border-radius: 8px;
 }
 h1 {
+    padding: 0;
+    color: gold;
+    font-size: 50px;
     text-align: center;
+
 }
 h2 {
+    padding: 0;
+    background-color: rgba(150, 150, 150, 0.771);
+    color: gold;
+    font-size: 36px;
+    text-align: center;
+}
+h3 {
+    padding: 0;
+    background-color: rgba(150, 150, 150, 0.771);
+    color: gold;
+    width: 934px;
+    font-size: 30px;
+    text-align: center;
+}
+.h3jo {
+    padding: 0;
+    background-color: rgba(150, 150, 150, 0.771);
+    color: gold;
+    width: 810px;
+    font-size: 30px;
     text-align: center;
 }
 table {
+    background-color: rgba(150, 150, 150, 0.771);
     text-align: center;
 }
 tr, th, td {
@@ -44,13 +72,14 @@ img {
     height: 40px;
 }
 .trgrey {
-    background-color: grey;
+    background-color: rgba(150, 150, 150, 0.771);
     color: white;
 
 }
 
 .trgain {
-    background-color: gainsboro;
+    background-color:  rgba(120, 120, 120, 0.508);
+    color: White;
 }
 
 .tdleft {
@@ -64,5 +93,7 @@ img {
 .boxylw {
     margin: 10px;
     background-color: yellow;
+    color: blue;
+    font-size: small;
     width: 95%;
 }
